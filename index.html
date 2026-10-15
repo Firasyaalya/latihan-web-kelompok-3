@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedai Kopi Sudut — Kopi Nyaman di Sekitar Kampus</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#beranda" class="logo">☕ Kedai Kopi Sudut</a>
+            <nav class="nav-menu" aria-label="Navigasi Utama">
+                <a href="#beranda">Beranda</a>
+                <a href="#katalog">Katalog</a>
+                <a href="#kontak">Kontak</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="beranda" class="hero">
+            <div class="container text-center">
+                <span class="badge">Tempat Nongkrong & Kerja Mahasiswa</span>
+                <h1>Ngopi Nyaman, Ide Cemerlang di Sudut Kampus</h1>
+                <p>Kedai Kopi Sudut menyajikan racikan biji kopi pilihan lokal dengan suasana tenang, Wi-Fi super cepat, dan harga pas di kantong mahasiswa.</p>
+                <div class="hero-buttons">
+                    <a href="#katalog" class="btn btn-primary">Lihat Katalog Menu</a>
+                    <a href="#kontak" class="btn btn-outline">Lokasi & Kontak</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="katalog" class="section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Katalog Menu Unggulan</h2>
+                    <p>Pilih jumlah dan isi catatan khusus sebelum memesan via WhatsApp.</p>
+                </div>
+
+                <div class="menu-grid">
+                    <article class="card">
+                        <img src="foto/Kopi Susu.jpeg" alt="Kopi Susu Sudut">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <h3>Kopi Susu Sudut</h3>
+                                <span class="price">Rp18.000</span>
+                            </div>
+                            <p>Perpaduan espresso single-origin, fresh milk berkualitas, dan gula aren asli.</p>
+
+                            <form action="https://wa.me/6285810649818" method="get" target="_blank" style="margin-top: 15px; display: flex; flex-direction: column; gap: 8px;">
+                                <label style="font-size: 0.8rem; font-weight: bold;">Jumlah:</label>
+                                <input type="number" name="text" value="1" min="1" style="padding: 6px; border: 1px solid #fde68a; border-radius: 4px;">
+
+                                <label style="font-size: 0.8rem; font-weight: bold;">Request / Catatan:</label>
+                                <input type="text" name="text" placeholder="Contoh: Less sugar, Normal ice" style="padding: 6px; border: 1px solid #fde68a; border-radius: 4px;">
+
+                                <button type="submit" class="btn btn-primary btn-full" style="margin-top: 5px;">
+                                    📱 Pesan via WhatsApp
+                                </button>
+                            </form>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="foto/Espresso Klasik.jpeg" alt="Espresso Klasik">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <h3>Espresso Klasik</h3>
+                                <span class="price">Rp14.000</span>
+                            </div>
+                            <p>Single shot espresso murni dengan crema tebal beraroma kuat khas nusantara.</p>
+
+                            <form action="https://wa.me/6285810649818" method="get" target="_blank" style="margin-top: 15px; display: flex; flex-direction: column; gap: 8px;">
+                                <label style="font-size: 0.8rem; font-weight: bold;">Jumlah:</label>
+                                <input type="number" name="text" value="1" min="1" style="padding: 6px; border: 1px solid #fde68a; border-radius: 4px;">
+
+                                <label style="font-size: 0.8rem; font-weight: bold;">Request / Catatan:</label>
+                                <input type="text" name="text" placeholder="Contoh: Panas / Pakai gula terpisah" style="padding: 6px; border: 1px solid #fde68a; border-radius: 4px;">
+
+                                <button type="submit" class="btn btn-primary btn-full" style="margin-top: 5px;">
+                                    📱 Pesan via WhatsApp
+                                </button>
+                            </form>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="foto/Roti Bakar Klasik.jpeg" alt="Roti Bakar Klasik">
+                        <div class="card-body">
+                            <div class="card-header">
+                                <h3>Roti Bakar Klasik</h3>
+                                <span class="price">Rp15.000</span>
+                            </div>
+                            <p>Roti panggang tebal dengan olesan mentega gurih, susu kental manis, dan keju.</p>
+
+                            <form action="https://wa.me/6285810649818" method="get" target="_blank" style="margin-top: 15px; display: flex; flex-direction: column; gap: 8px;">
+                                <label style="font-size: 0.8rem; font-weight: bold;">Jumlah:</label>
+                                <input type="number" name="text" value="1" min="1" style="padding: 6px; border: 1px solid #fde68a; border-radius: 4px;">
+
+                                <label style="font-size: 0.8rem; font-weight: bold;">Request / Catatan:</label>
+                                <input type="text" name="text" placeholder="Contoh: Keju dipisah / Kering" style="padding: 6px; border: 1px solid #fde68a; border-radius: 4px;">
+
+                                <button type="submit" class="btn btn-primary btn-full" style="margin-top: 5px;">
+                                    📱 Pesan via WhatsApp
+                                </button>
+                            </form>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="kontak" class="section bg-alt">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Kontak & Jam Buka</h2>
+                    <p>Kunjungi kedai kami atau hubungi untuk informasi pemesanan tempat.</p>
+                </div>
+
+                <div class="contact-box">
+                    <div class="contact-info">
+                        <div>
+                            <h3>📍 Alamat Kedai</h3>
+                            <p>Jl. Prof. Dr. Satrio No. 45 (Dekat Gerbang Belakang Kampus), Jakarta Selatan</p>
+                        </div>
+                        <div>
+                            <h3>🕒 Jam Operasional</h3>
+                            <p>Senin – Minggu: 08.00 – 22.00 WIB</p>
+                        </div>
+                        <div>
+                            <h3>📞 Kontak WhatsApp</h3>
+                            <p><a href="https://wa.me/6285810649818" target="_blank" rel="noopener noreferrer">+62 858-1064-9818</a></p>
+                        </div>
+                        <div>
+                            <h3>✉️ Alamat Email</h3>
+                            <p><a href="mailto:kedaikopisusu@gmail.com">KedaiKopiSudut@gmail.com</a></p>
+                        </div>
+                    </div>
+
+                    <div class="map-box">
+                        <span class="icon">🗺️</span>
+                        <h4>Ingin Langsung ke Lokasi?</h4>
+                        <p>Temukan rute tercepat menuju kedai kami via peta online.</p>
+                        <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Buka Google Maps</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Kedai Kopi Sudut.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
